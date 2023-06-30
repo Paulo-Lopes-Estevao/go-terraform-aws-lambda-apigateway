@@ -22,10 +22,8 @@ The user will need to have the following permissions:
 - AWSLambdaFullAccess
 - IAMFullAccess
 - AmazonAPIGatewayAdministrator
-- AmazonAPIGatewayInvokeFullAccess
-- AmazonAPIGatewayPushToCloudWatchLogs
-- AmazonAPIGatewayReadOnlyAccess
-- AmazonAPIGatewayServiceRolePolicy
+- AmazonS3FullAccess
+- CloudWatchLogsFullAccess
 
 ### AWS CLI
 
