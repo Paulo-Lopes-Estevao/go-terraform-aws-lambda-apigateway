@@ -100,6 +100,19 @@ terraform plan
 terraform apply
 ```
 
+After applying the changes, you will see the API Gateway endpoint in the output.\
+You can use the endpoint to test the API.
+
+`terraform output` to inspect the current state
+```bash
+terraform output base_url
+```
+
+Enter the endpoint in your browser or use curl to test the API
+```bash
+curl https://<API_GATEWAY_ENDPOINT>/dev/hello
+```
+
 `terraform destroy` to destroy the Terraform-managed infrastructure
 ```bash
 terraform destroy
