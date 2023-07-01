@@ -48,9 +48,8 @@ export AWS_DEFAULT_REGION="us-east-1"
 
 ### Terraform
 
-Terraform uses a plugin-based architecture to support the numerous infrastructure and service providers available.
-The plugins are distributed separately from the core binary.
-Terraform will automatically install any plugin it requires when you run `terraform init`.
+Terraform is an open-source infrastructure as code software tool created by HashiCorp.
+It enables users to define and provision a datacenter infrastructure using a high-level configuration language known as Hashicorp Configuration Language (HCL), or optionally JSON.
 
 ### AWS Lambda
 
@@ -61,12 +60,6 @@ With Lambda, you can run code for virtually any type of application or backend s
 
 Amazon API Gateway is a fully managed service that makes it easy for developers to create, publish, maintain, monitor, and secure APIs at any scale.
 API Gateway handles all the tasks involved in accepting and processing up to hundreds of thousands of concurrent API calls, including traffic management, CORS support, authorization and access control, throttling, monitoring, and API version management.
-
-### Terraform
-
-Terraform is an open-source infrastructure as code software tool created by HashiCorp.\
-It enables users to define and provision a datacenter infrastructure using a high-level configuration language known as Hashicorp Configuration Language (HCL), or optionally JSON.
-It also supports industry-standard provisioning workflows, including third-party tools such as Chef, Puppet, Ansible, and SaltStack.
 
 ## Usage
 
